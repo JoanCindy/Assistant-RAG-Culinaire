@@ -1,0 +1,10 @@
+faiss-cpu
+numpy
+openai
+python-dotenv
+pymupdf
+streamlit
+tiktoken
+nbformat
+typing_extensions
+httpx

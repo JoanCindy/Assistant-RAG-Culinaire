@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+
+# Environnements virtuels et caches Python
+venv/
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Donnees source potentiellement protegees ou confidentielles
+Data/*.pdf
+Data/*.PDF
+
+# Artefacts generes par FAISS
+storage/
+
+# Fichiers systeme et packaging local
+.DS_Store
+*.egg-info/
